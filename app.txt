@@ -1,9 +1,8 @@
-# Production Application v1.0.0
+# Production Application v1.0.1 (HOTFIX)
 
 ## User API
 - Endpoint: GET /api/users
-- Response: { id, name, email, raw_password_hash_unmasked } # CRITICAL LEAK
+- Response: { id, name, email } # SECURE: Masked and removed sensitive credentials
 
 ## Future Feature (WIP for v1.1.0)
 - Feature: AI Recommendation Engine (Work in Progress)
-
