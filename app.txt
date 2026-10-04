@@ -3,3 +3,7 @@
 ## User API
 - Endpoint: GET /api/users
 - Response: { id, name, email, raw_password_hash_unmasked } # CRITICAL LEAK
+
+## Future Feature (WIP for v1.1.0)
+- Feature: AI Recommendation Engine (Work in Progress)
+
